@@ -5,7 +5,7 @@
 **蓬莱** · ほうらい · **Hōrai**
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1200&color=C084FC&center=true&vCenter=true&width=900&lines=Penglai+%C2%B7+%E8%93%AC%E8%8E%B1+%C2%B7+H%C5%8Drai;CS+%C2%B7+Statistics+%C2%B7+Data+Science+%40+CU+Boulder;VQA+%C2%B7+Uncertainty-Aware+AI;Efficient+Inference+Systems+%C2%B7+Reliable+Multimodal+AI" alt="Typing introduction" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1200&color=C084FC&center=true&vCenter=true&width=900&lines=Penglai+%C2%B7+%E8%93%AC%E8%8E%B1+%C2%B7+H%C5%8Drai;CS+Undergraduate+%C2%B7+University+of+Colorado+Boulder;VQA+%C2%B7+Uncertainty-Aware+AI;Efficient+Inference+Systems+%C2%B7+Reliable+Multimodal+AI" alt="Typing introduction" />
 </a>
 
 <p><i>Exploring how intelligent systems reason, hesitate, and know when to ask.</i></p>
@@ -17,17 +17,13 @@
 ## 👋 About me
 
 - 🧭 From **China**, currently based in **Boulder, Colorado**
-- 🎓 Undergraduate studying **Computer Science, Statistics, and Data Science** at the **University of Colorado Boulder**
+- 🎓 **Computer Science undergraduate** at the **University of Colorado Boulder**
 
 ## 🔭 Research interests
 
 - **Multimodal &amp; abstract visual reasoning** — VQA, referent-aware routing, object-centric representations, predictive coding, and candidate comparison
 - **Trustworthy &amp; interpretable inference** — uncertainty-aware inference, calibration, selective prediction, mechanism-focused diagnostics, and reliable AI
 - **Efficient inference systems** — serving, scheduling, and caching for conditional multimodal and agentic reasoning pipelines
-
-## 🧠 From biological intelligence to reliable AI
-
-I treat computational neuroscience as a source of ideas for computer science rather than a separate research track. Concepts such as predictive processing, neural representation, and uncertainty-sensitive computation shape how I think about multimodal reasoning, VQA, abstract visual reasoning, calibration, selective prediction, interpretability, and efficient inference systems.
 
 ## 🛠️ Research toolkit
 
@@ -46,6 +42,10 @@ I treat computational neuroscience as a source of ideas for computer science rat
 ## ⚙️ Systems direction
 
 My VQA routing and fusion projects ask when a model should **answer, clarify, or abstain**. I am interested in the systems side of that same problem: how to serve multi-stage multimodal and agentic reasoning pipelines efficiently and reliably when execution is conditional and intermediate context grows large. This naturally leads to questions in scheduling, caching, and inference serving—not as separate interests, but as infrastructure for the reasoning problems above.
+
+## 🧠 Neuroscience-inspired lens
+
+I view computational neuroscience as an inspiration for CS: ideas from predictive processing and neural representation can motivate better multimodal reasoning, VQA, abstract visual reasoning, uncertainty-aware inference, calibration, selective prediction, interpretability, and reliable AI.
 
 ## 📌 Selected work
 
