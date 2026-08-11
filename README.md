@@ -1,6 +1,8 @@
 <div align="center">
 
-# laipeng
+# Hou Yuu
+
+<sub>ホウ・ユウ</sub>
 
 *an undergraduate student studying in the United States*
 
