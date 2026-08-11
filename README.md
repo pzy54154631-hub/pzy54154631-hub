@@ -1,22 +1,41 @@
 <div align="center">
 
-# Hou Yuu
+# Penglai
 
-<sub>ホウ・ユウ</sub>
+**蓬莱** · ほうらい · **Hōrai**
 
-*an undergraduate student studying in the United States*
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1200&color=C084FC&center=true&vCenter=true&width=900&lines=Penglai+%C2%B7+%E8%93%AC%E8%8E%B1+%C2%B7+H%C5%8Drai;From+China+%C2%B7+Studying+in+Boulder%2C+Colorado;Multimodal+Reasoning+%C2%B7+Uncertainty-Aware+AI" alt="Typing introduction" />
+</a>
 
-`multimodal reasoning` · `uncertainty-aware inference` · `object-centric AI`
-
-<br>
-
-**Building systems that know what they see, what they do not know, and when they should ask.**
+<p><i>Exploring how intelligent systems reason, hesitate, and know when to ask.</i></p>
 
 </div>
 
-<br>
+---
 
-## Research directions
+## 👋 About me
+
+- 🧭 From **China**, currently studying in **Boulder, Colorado**
+- 🎓 Undergraduate student interested in reliable multimodal intelligence
+- 🔭 Working on visual question answering and abstract visual reasoning
+- 🧩 Drawn to ambiguity, calibration, object-centric representations, and mechanism-focused evaluation
+
+## 🛠️ Research toolkit
+
+<div align="center">
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
+![Transformers](https://img.shields.io/badge/Transformers-FFD21E?style=flat-square&logo=huggingface&logoColor=111111)
+![LaTeX](https://img.shields.io/badge/LaTeX-008080?style=flat-square&logo=latex&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+
+</div>
+
+## 🔬 Research directions
 
 <table>
   <tr>
@@ -35,7 +54,7 @@
   </tr>
 </table>
 
-## Selected work
+## 📌 Selected work
 
 <table>
   <tr>
@@ -68,12 +87,12 @@
   </tr>
 </table>
 
-## In progress
+## 🚧 In progress
 
 **[AAAI-2027-Fusion](https://github.com/pzy54154631-hub/AAAI-2027-Fusion)** explores how referent-aware VQA routing and uncertainty-preserving object-file reasoning can be combined without collapsing their distinct failure mechanisms.
 
 ---
 
 <div align="center">
-  <sub>Research artifacts include explicit evidence boundaries, reproducibility notes, and known limitations.</sub>
+  <sub>Learning in public · documenting evidence boundaries · keeping negative results visible</sub>
 </div>
