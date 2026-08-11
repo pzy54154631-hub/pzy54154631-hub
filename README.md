@@ -43,9 +43,9 @@
 
 My VQA routing and fusion projects ask when a model should **answer, clarify, or abstain**. I am interested in the systems side of that same problem: how to serve multi-stage multimodal and agentic reasoning pipelines efficiently and reliably when execution is conditional and intermediate context grows large. This naturally leads to questions in scheduling, caching, and inference serving—not as separate interests, but as infrastructure for the reasoning problems above.
 
-## 🧠 Learning and reasoning in natural and artificial intelligence
+## 🧠 Natural &amp; artificial intelligence
 
-I am interested in how ideas from human learning and representation can help build multimodal AI that reasons under uncertainty and knows when to answer, clarify, or abstain.
+I am interested in how learning, representation, and reasoning connect natural and artificial intelligence. Ideas from predictive processing, human concept learning, and decision-making motivate my work on multimodal reasoning, VQA, and abstract visual reasoning. I want to build models that form structured representations, reason under uncertainty, and remain interpretable and reliable—not as imitations of the brain, but as computational systems informed by how people learn and think.
 
 ## 📌 Selected work
 
