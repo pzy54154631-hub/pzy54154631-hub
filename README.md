@@ -20,7 +20,7 @@
 - 🎓 **Computer Science undergraduate** at the **University of Colorado Boulder**
 - 🔭 Research interests: **multimodal reasoning**, **visual question answering**, and **abstract visual reasoning**
 - 🧩 Particularly interested in uncertainty-aware inference, calibration, selective prediction, object-centric representations, interpretability, and mechanism-focused evaluation
-- ⚙️ Systems interests: efficient ML data pipelines, scalable training, reliable inference, agentic serving, and resource-aware deployment
+- ⚙️ Systems interests: efficient multimodal inference and agentic serving, plus reliable modular ML pipelines
 
 ## 🛠️ Research toolkit
 
@@ -38,27 +38,17 @@
 
 ## ⚙️ Systems &amp; efficiency interests
 
-My model-level work on selective prediction and structured multimodal reasoning motivates a systems question: **how can complex ML reasoning pipelines run efficiently, reliably, and securely at scale?**
+My existing projects point most naturally to two systems questions: **how can conditional multimodal inference run efficiently, and how can modular ML pipelines be composed and validated reliably?**
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>ML data infrastructure</h3>
-      <p>Storage and data pipelines that keep accelerators supplied during model training and serving.</p>
+      <h3>Efficient inference &amp; agentic serving</h3>
+      <p>I am interested in conditional execution, scheduling, and caching for multi-stage multimodal reasoning pipelines, motivated by my VQA router and fusion work.</p>
     </td>
     <td width="50%" valign="top">
-      <h3>Training systems at scale</h3>
-      <p>Distributed systems that make large-model training more efficient, performant, and fault-tolerant.</p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>Inference &amp; agentic serving</h3>
-      <p>Serving, scheduling, and caching for reasoning pipelines with many model calls and large intermediate contexts.</p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>Resource-aware ML</h3>
-      <p>Deploying capable models under latency, memory, power, and compute constraints, including edge and embodied settings.</p>
+      <h3>Reliable model pipelines &amp; composition</h3>
+      <p>I am interested in efficient module composition and mechanism-aware validation, grounded in my work on object-file inference, candidate sharing, and LoRA merging.</p>
     </td>
   </tr>
 </table>
