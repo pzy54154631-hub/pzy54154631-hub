@@ -5,7 +5,7 @@
 **蓬莱** · ほうらい · **Hōrai**
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1200&color=C084FC&center=true&vCenter=true&width=900&lines=Penglai+%C2%B7+%E8%93%AC%E8%8E%B1+%C2%B7+H%C5%8Drai;From+China+%C2%B7+University+of+Colorado+Boulder;Multimodal+Reasoning+%C2%B7+Uncertainty-Aware+AI;Computational+Neuroscience+%C2%B7+Reliable+ML+Systems" alt="Typing introduction" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1200&color=C084FC&center=true&vCenter=true&width=900&lines=Penglai+%C2%B7+%E8%93%AC%E8%8E%B1+%C2%B7+H%C5%8Drai;From+China+%C2%B7+University+of+Colorado+Boulder;Multimodal+Reasoning+%C2%B7+Uncertainty-Aware+AI;Neuroscience-Inspired+%C2%B7+Interpretable+%C2%B7+Reliable" alt="Typing introduction" />
 </a>
 
 <p><i>Exploring how intelligent systems reason, hesitate, and know when to ask.</i></p>
@@ -19,7 +19,7 @@
 - 🧭 From **China**, currently based in **Boulder, Colorado**
 - 🎓 Undergraduate student at the **University of Colorado Boulder**
 - 🔭 Research interests: **multimodal reasoning**, **visual question answering**, and **abstract visual reasoning**
-- 🧩 Particularly interested in uncertainty-aware inference, calibration, selective prediction, object-centric representations, and mechanism-focused evaluation
+- 🧩 Particularly interested in uncertainty-aware inference, calibration, selective prediction, object-centric representations, interpretability, and mechanism-focused evaluation
 
 ## 🛠️ Research toolkit
 
@@ -37,7 +37,7 @@
 
 ## 🌱 Exploring next
 
-- 🧠 **Computational neuroscience and brain-inspired learning** — connections among predictive processing, neural representations, uncertainty, and structured inference
+- 🧠 **Computational neuroscience as inspiration for CS** — using ideas from predictive processing and neural representation to motivate multimodal reasoning, VQA, abstract visual reasoning, uncertainty-aware inference, calibration, selective prediction, interpretability, and reliable AI
 - ⚙️ **Machine learning systems** — scalable and efficient training, inference and agentic serving, with an emphasis on reliability and security
 
 ## 🔬 Research directions
@@ -53,8 +53,8 @@
       <p>Preserving structured hypotheses instead of collapsing them too early.</p>
     </td>
     <td width="33%" valign="top">
-      <h3>Calibration &amp; evaluation</h3>
-      <p>Designing diagnostics that reveal why an inference pipeline succeeds or fails.</p>
+      <h3>Calibration &amp; interpretability</h3>
+      <p>Designing diagnostics that reveal why an inference pipeline succeeds, fails, answers, or abstains.</p>
     </td>
   </tr>
 </table>
