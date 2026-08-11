@@ -5,7 +5,7 @@
 **蓬莱** · ほうらい · **Hōrai**
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1200&color=C084FC&center=true&vCenter=true&width=900&lines=Penglai+%C2%B7+%E8%93%AC%E8%8E%B1+%C2%B7+H%C5%8Drai;From+China+%C2%B7+University+of+Colorado+Boulder;Multimodal+Reasoning+%C2%B7+Uncertainty-Aware+AI;Neuroscience-Inspired+%C2%B7+Interpretable+%C2%B7+Reliable" alt="Typing introduction" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1200&color=C084FC&center=true&vCenter=true&width=900&lines=Penglai+%C2%B7+%E8%93%AC%E8%8E%B1+%C2%B7+H%C5%8Drai;CS+Undergraduate+%C2%B7+University+of+Colorado+Boulder;Multimodal+Reasoning+%C2%B7+Uncertainty-Aware+AI;Efficient+ML+Systems+%C2%B7+Reliable+Multimodal+AI" alt="Typing introduction" />
 </a>
 
 <p><i>Exploring how intelligent systems reason, hesitate, and know when to ask.</i></p>
@@ -17,9 +17,10 @@
 ## 👋 About me
 
 - 🧭 From **China**, currently based in **Boulder, Colorado**
-- 🎓 Undergraduate student at the **University of Colorado Boulder**
+- 🎓 **Computer Science undergraduate** at the **University of Colorado Boulder**
 - 🔭 Research interests: **multimodal reasoning**, **visual question answering**, and **abstract visual reasoning**
 - 🧩 Particularly interested in uncertainty-aware inference, calibration, selective prediction, object-centric representations, interpretability, and mechanism-focused evaluation
+- ⚙️ Systems interests: efficient ML data pipelines, scalable training, reliable inference, agentic serving, and resource-aware deployment
 
 ## 🛠️ Research toolkit
 
@@ -35,10 +36,36 @@
 
 </div>
 
-## 🌱 Exploring next
+## ⚙️ Systems &amp; efficiency interests
 
-- 🧠 **Computational neuroscience as inspiration for CS** — using ideas from predictive processing and neural representation to motivate multimodal reasoning, VQA, abstract visual reasoning, uncertainty-aware inference, calibration, selective prediction, interpretability, and reliable AI
-- ⚙️ **Machine learning systems** — scalable and efficient training, inference and agentic serving, with an emphasis on reliability and security
+My model-level work on selective prediction and structured multimodal reasoning motivates a systems question: **how can complex ML reasoning pipelines run efficiently, reliably, and securely at scale?**
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>ML data infrastructure</h3>
+      <p>Storage and data pipelines that keep accelerators supplied during model training and serving.</p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>Training systems at scale</h3>
+      <p>Distributed systems that make large-model training more efficient, performant, and fault-tolerant.</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>Inference &amp; agentic serving</h3>
+      <p>Serving, scheduling, and caching for reasoning pipelines with many model calls and large intermediate contexts.</p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>Resource-aware ML</h3>
+      <p>Deploying capable models under latency, memory, power, and compute constraints, including edge and embodied settings.</p>
+    </td>
+  </tr>
+</table>
+
+## 🧠 Neuroscience-inspired lens
+
+I view computational neuroscience as an inspiration for CS: ideas from predictive processing and neural representation can motivate better multimodal reasoning, VQA, abstract visual reasoning, uncertainty-aware inference, calibration, selective prediction, interpretability, and reliable AI.
 
 ## 🔬 Research directions
 
