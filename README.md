@@ -45,7 +45,7 @@ My VQA routing and fusion projects ask when a model should **answer, clarify, or
 
 ## 🧠 Learning, representation &amp; reasoning in natural and artificial intelligence
 
-I view computational neuroscience as an inspiration for CS: ideas from predictive processing and neural representation can motivate better multimodal reasoning, VQA, abstract visual reasoning, uncertainty-aware inference, calibration, selective prediction, interpretability, and reliable AI.
+I am interested in computational models that connect learning, representation, and reasoning across natural and artificial intelligence. Drawing on predictive processing, human concept learning, knowledge representation, and decision-making, I use VQA and abstract visual reasoning as testbeds for studying how multimodal systems build structured representations, reason under uncertainty, and decide when to answer, clarify, or abstain. My goal is to develop AI that is more adaptive, interpretable, and reliable.
 
 ## 📌 Selected work
 
