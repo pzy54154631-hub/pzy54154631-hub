@@ -43,7 +43,7 @@
 
 My VQA routing and fusion projects ask when a model should **answer, clarify, or abstain**. I am interested in the systems side of that same problem: how to serve multi-stage multimodal and agentic reasoning pipelines efficiently and reliably when execution is conditional and intermediate context grows large. This naturally leads to questions in scheduling, caching, and inference serving—not as separate interests, but as infrastructure for the reasoning problems above.
 
-## 🧠 Neuroscience-inspired lens
+## 🧠 Learning, representation &amp; reasoning in natural and artificial intelligence
 
 I view computational neuroscience as an inspiration for CS: ideas from predictive processing and neural representation can motivate better multimodal reasoning, VQA, abstract visual reasoning, uncertainty-aware inference, calibration, selective prediction, interpretability, and reliable AI.
 
