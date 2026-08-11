@@ -25,7 +25,9 @@
 - **Trustworthy &amp; interpretable inference** — uncertainty-aware inference, calibration, selective prediction, mechanism-focused diagnostics, and reliable AI
 - **Efficient inference systems** — serving, scheduling, and caching for conditional multimodal and agentic reasoning pipelines
 
-> **Cross-disciplinary lens:** My goals remain CS-centered, while I draw inspiration from computational neuroscience—especially predictive processing and neural representations—to study multimodal reasoning, uncertainty, and interpretability.
+## 🧠 From biological intelligence to reliable AI
+
+I treat computational neuroscience as a source of ideas for computer science rather than a separate research track. Concepts such as predictive processing, neural representation, and uncertainty-sensitive computation shape how I think about multimodal reasoning, VQA, abstract visual reasoning, calibration, selective prediction, interpretability, and efficient inference systems.
 
 ## 🛠️ Research toolkit
 
