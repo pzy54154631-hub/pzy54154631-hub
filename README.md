@@ -18,9 +18,12 @@
 
 - 🧭 From **China**, currently based in **Boulder, Colorado**
 - 🎓 **Computer Science undergraduate** at the **University of Colorado Boulder**
-- 🔭 Research interests: **multimodal reasoning**, **visual question answering**, and **abstract visual reasoning**
-- 🧩 Particularly interested in uncertainty-aware inference, calibration, selective prediction, object-centric representations, interpretability, and mechanism-focused evaluation
-- ⚙️ Systems direction: efficient and reliable inference systems for conditional multimodal reasoning
+
+## 🔭 Research interests
+
+- **Multimodal &amp; abstract visual reasoning** — VQA, referent-aware routing, object-centric representations, predictive coding, and candidate comparison
+- **Trustworthy &amp; interpretable inference** — uncertainty-aware inference, calibration, selective prediction, mechanism-focused diagnostics, and reliable AI
+- **Efficient inference systems** — serving, scheduling, and caching for conditional multimodal and agentic reasoning pipelines
 
 ## 🛠️ Research toolkit
 
@@ -43,25 +46,6 @@ My VQA routing and fusion projects ask when a model should **answer, clarify, or
 ## 🧠 Neuroscience-inspired lens
 
 I view computational neuroscience as an inspiration for CS: ideas from predictive processing and neural representation can motivate better multimodal reasoning, VQA, abstract visual reasoning, uncertainty-aware inference, calibration, selective prediction, interpretability, and reliable AI.
-
-## 🔬 Research directions
-
-<table>
-  <tr>
-    <td width="33%" valign="top">
-      <h3>Referents &amp; routing</h3>
-      <p>Separating ambiguity, uncertainty, and answerability in multimodal systems.</p>
-    </td>
-    <td width="33%" valign="top">
-      <h3>Objects &amp; residuals</h3>
-      <p>Preserving structured hypotheses instead of collapsing them too early.</p>
-    </td>
-    <td width="33%" valign="top">
-      <h3>Calibration &amp; interpretability</h3>
-      <p>Designing diagnostics that reveal why an inference pipeline succeeds, fails, answers, or abstains.</p>
-    </td>
-  </tr>
-</table>
 
 ## 📌 Selected work
 
