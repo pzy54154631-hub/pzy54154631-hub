@@ -1,6 +1,6 @@
-# Ziyu Peng
+# laipeng
 
-I work on reliable multimodal reasoning: how models represent uncertainty, compare structured candidates, and decide when to answer, clarify, or abstain.
+An undergraduate student studying in the United States.
 
 My current interests include:
 
