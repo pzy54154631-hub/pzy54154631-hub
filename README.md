@@ -5,7 +5,7 @@
 **蓬莱** · ほうらい · **Hōrai**
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1200&color=C084FC&center=true&vCenter=true&width=900&lines=Penglai+%C2%B7+%E8%93%AC%E8%8E%B1+%C2%B7+H%C5%8Drai;CS+Undergraduate+%C2%B7+University+of+Colorado+Boulder;VQA+%C2%B7+Uncertainty-Aware+AI;Efficient+Inference+Systems+%C2%B7+Reliable+Multimodal+AI" alt="Typing introduction" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1200&color=C084FC&center=true&vCenter=true&width=900&lines=Penglai+%C2%B7+%E8%93%AC%E8%8E%B1+%C2%B7+H%C5%8Drai;Statistics+%26+Data+Science+%C2%B7+University+of+Colorado+Boulder;VQA+%C2%B7+Uncertainty-Aware+AI;Efficient+Inference+Systems+%C2%B7+Reliable+Multimodal+AI" alt="Typing introduction" />
 </a>
 
 <p><i>Exploring how intelligent systems reason, hesitate, and know when to ask.</i></p>
@@ -17,7 +17,7 @@
 ## 👋 About me
 
 - 🧭 From **China**, currently based in **Boulder, Colorado**
-- 🎓 **Computer Science undergraduate** at the **University of Colorado Boulder**
+- 🎓 Undergraduate studying **Statistics and Data Science** at the **University of Colorado Boulder**
 
 ## 🔭 Research interests
 
