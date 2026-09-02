@@ -5,7 +5,7 @@
 **蓬莱** · ほうらい · **Hōrai**
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1200&color=C084FC&center=true&vCenter=true&width=900&lines=Penglai+%C2%B7+%E8%93%AC%E8%8E%B1+%C2%B7+H%C5%8Drai;Statistics+%26+Data+Science+%C2%B7+University+of+Colorado+Boulder;VQA+%C2%B7+Uncertainty-Aware+AI;Efficient+Inference+Systems+%C2%B7+Reliable+Multimodal+AI" alt="Typing introduction" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1200&color=C084FC&center=true&vCenter=true&width=900&lines=Penglai+%C2%B7+%E8%93%AC%E8%8E%B1+%C2%B7+H%C5%8Drai;Statistics+%26+Data+Science+%C2%B7+University+of+Colorado+Boulder;Multimodal+Reasoning+%C2%B7+Reliable+AI;Mechanistic+Interpretability;Foundation+Models+%C2%B7+ML+Systems;Computational+Neuroscience" alt="Typing introduction" />
 </a>
 
 <p><i>Exploring how intelligent systems reason, hesitate, and know when to ask.</i></p>
@@ -22,8 +22,10 @@
 ## 🔭 Research interests
 
 - **Multimodal &amp; abstract visual reasoning** — VQA, referent-aware routing, object-centric representations, predictive coding, and candidate comparison
-- **Trustworthy &amp; interpretable inference** — uncertainty-aware inference, calibration, selective prediction, mechanism-focused diagnostics, and reliable AI
-- **Efficient inference systems** — serving, scheduling, and caching for conditional multimodal and agentic reasoning pipelines
+- **Trustworthy &amp; interpretable inference** — uncertainty-aware inference, calibration, selective prediction, verification, and mechanism-focused diagnostics
+- **Mechanistic interpretability** — internal representations, attention and MLP mechanisms, and causal interventions for language and multimodal reasoning
+- **Foundation models &amp; ML systems** — large-scale model training, efficient inference, serving, and adaptation for language and multimodal models
+- **Computational neuroscience** — predictive processing, representation, learning, and decision-making across natural and artificial intelligence
 
 ## 🛠️ Research toolkit
 
@@ -39,13 +41,17 @@
 
 </div>
 
-## ⚙️ Systems direction
+## 🔬 Research direction
 
-My VQA routing and fusion projects ask when a model should **answer, clarify, or abstain**. I am interested in the systems side of that same problem: how to serve multi-stage multimodal and agentic reasoning pipelines efficiently and reliably when execution is conditional and intermediate context grows large. This naturally leads to questions in scheduling, caching, and inference serving—not as separate interests, but as infrastructure for the reasoning problems above.
+My current projects decompose observable model failures: ambiguity about the referent, insufficient visual evidence, the wrong numerical regime, imperfect object formation, or poor candidate selection. I use calibrated routing, structured representations, controlled ablations, and intervention ladders to make these failures easier to localize. Beyond behavioral diagnostics, I am also interested in how referents, uncertainty, and decision-relevant features are represented inside Transformer components, and how causal interventions change model outputs.
 
-## 🧠 Natural &amp; artificial intelligence
+## 🧠 Why these projects fit together
 
-I am interested in how learning, representation, and reasoning connect natural and artificial intelligence. Ideas from predictive processing, human concept learning, and decision-making motivate my work on multimodal reasoning, VQA, and abstract visual reasoning. I want to build models that form structured representations, reason under uncertainty, and remain interpretable and reliable—not as imitations of the brain, but as computational systems informed by how people learn and think.
+Across VQA, ChartQA, and Raven-style reasoning, I study a common problem: a model must identify what matters, preserve uncertainty long enough to compare alternatives, and know when its evidence is not sufficient. These settings give me concrete, testable workloads for studying reliable reasoning and, increasingly, the internal mechanisms that support or undermine it.
+
+## 🌌 Natural &amp; artificial intelligence
+
+I am broadly interested in how learning, representation, and decision-making connect natural and artificial intelligence. Ideas from computational neuroscience and predictive processing motivate my interest in interpretable foundation models and general-purpose learning systems—not as literal copies of the brain, but as computational systems whose internal representations and reasoning can be studied.
 
 ## 📌 Selected work
 
