@@ -15,7 +15,7 @@ class Label:
     series: str
     start: date
     endpoint: date
-    forward_return: float
+    forward_return: float | None
 
 
 def read_panel(path: Path) -> tuple[list[date], dict[str, list[tuple[date, float]]]]:
@@ -70,6 +70,23 @@ def audit(calendar, labels, cutoff: date, horizon: int):
     return calendar_only, crossing, eligible
 
 
+def fixed_session_targets(calendar, observations, cutoff: date, horizon: int) -> list[Label]:
+    """Anchor the endpoint on the shared session calendar, retaining missing targets."""
+    if horizon < 1 or cutoff not in calendar:
+        raise ValueError("Choose a positive horizon and a cutoff on the supplied calendar.")
+    training_sessions = calendar[: calendar.index(cutoff) + 1]
+    targets = []
+    for series, prices in observations.items():
+        price_by_date = dict(prices)
+        for start, endpoint in zip(training_sessions, training_sessions[horizon:]):
+            if start not in price_by_date:
+                continue
+            final = price_by_date.get(endpoint)
+            value = None if final is None else final / price_by_date[start] - 1
+            targets.append(Label(series, start, endpoint, value))
+    return targets
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--panel", type=Path, default=Path(__file__).with_name("sessions.csv"))
@@ -80,14 +97,23 @@ def main():
         calendar, observations = read_panel(args.panel)
         labels = forward_labels(observations, args.horizon)
         candidates, crossing, eligible = audit(calendar, labels, args.cutoff, args.horizon)
+        fixed = fixed_session_targets(calendar, observations, args.cutoff, args.horizon)
     except (OSError, ValueError) as error:
         parser.error(str(error))
-    print(f"Cutoff: {args.cutoff} | Horizon: {args.horizon} observations")
+    print(f"Cutoff: {args.cutoff} | Horizon: {args.horizon}")
+    print("Target A: h-th subsequent observation per series")
     print(f"Calendar-only candidates: {len(candidates)}")
     print(f"Candidates crossing cutoff: {len(crossing)}")
     print(f"Endpoint-verified training rows: {len(eligible)}")
     for label in crossing:
         print(f"  {label.series}: {label.start} -> {label.endpoint}")
+    missing = [row for row in fixed if row.forward_return is None]
+    print("Target B: h-th subsequent session on the shared calendar")
+    print(f"Starts with a scheduled endpoint by cutoff: {len(fixed)}")
+    print(f"Missing endpoint prices (null targets): {len(missing)}")
+    print(f"Endpoint-verified training rows: {len(fixed) - len(missing)}")
+    for label in missing:
+        print(f"  {label.series}: {label.start} -> {label.endpoint} (missing)")
 
 
 if __name__ == "__main__":

@@ -2,7 +2,7 @@ from datetime import date
 from pathlib import Path
 import unittest
 
-from audit import audit, forward_labels, read_panel
+from audit import audit, fixed_session_targets, forward_labels, read_panel
 
 
 class FoldBoundaryTests(unittest.TestCase):
@@ -36,6 +36,29 @@ class FoldBoundaryTests(unittest.TestCase):
         self.assertEqual(forward_labels(self.prices, len(self.calendar)), [])
         with self.assertRaises(ValueError):
             forward_labels(self.prices, 0)
+
+    def test_fixed_session_missing_price_remains_null(self):
+        rows = fixed_session_targets(self.calendar, self.prices, date(2030, 4, 8), 2)
+        self.assertEqual(len(rows), 7)
+        missing = [(row.series, row.start.day, row.endpoint.day)
+                   for row in rows if row.forward_return is None]
+        self.assertEqual(missing, [("BRAVO", 2, 4), ("BRAVO", 3, 5)])
+        self.assertEqual(sum(row.forward_return is not None for row in rows), 5)
+
+    def test_fixed_session_accepts_gaps_between_observed_endpoints(self):
+        rows = fixed_session_targets(self.calendar, self.prices, date(2030, 4, 9), 4)
+        row = next(row for row in rows if row.series == "BRAVO" and row.start.day == 3)
+        self.assertEqual(row.endpoint, date(2030, 4, 9))
+        self.assertAlmostEqual(row.forward_return, 54 / 51 - 1)
+        self.assertTrue(all(row.endpoint <= date(2030, 4, 9) for row in rows))
+
+    def test_fixed_session_cannot_use_a_post_cutoff_quote(self):
+        cutoff = date(2030, 4, 8)
+        truncated = {name: [(day, px) for day, px in obs if day <= cutoff]
+                     for name, obs in self.prices.items()}
+        self.assertEqual(fixed_session_targets(self.calendar, self.prices, cutoff, 2),
+                         fixed_session_targets(self.calendar, truncated, cutoff, 2))
+        self.assertEqual(fixed_session_targets(self.calendar, self.prices, cutoff, 20), [])
 
 
 if __name__ == "__main__":
